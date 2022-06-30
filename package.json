@@ -9,7 +9,6 @@
     "cy:run": "npx cypress run --browser chrome",
     "cy:report": "cypress run --record --key 5e76e894-a073-4282-81ea-229fb0a498f7",
     "cy:dashboard": ""
-    
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,7 @@
     "cypress": "^8.2.0"
   },
   "dependencies": {
-    "faker": "^5.5.3"
+    "faker": "^5.5.3",
+    "uuid": "^8.3.2"
   }
 }
